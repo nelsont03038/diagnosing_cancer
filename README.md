@@ -12,3 +12,4 @@ opinion or otherwise engage in the practice of medicine.
 results or consequences of any attempt to use or adopt any of the 
 information presented in this video or on our web site.
 --This work is solely for demonstration purposes.
+___________________________________________________________
