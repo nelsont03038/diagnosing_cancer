@@ -87,7 +87,7 @@ print('Recall: \t', recall)
 
 # Evaluating, Improving and Tuning the ANN
 
-# Evaluating the ANN
+# Evaluating the ANN with k-fold cross validation
 from keras.wrappers.scikit_learn import KerasClassifier
 from sklearn.model_selection import cross_val_score
 from keras.models import Sequential
@@ -104,8 +104,8 @@ accuracies = cross_val_score(estimator = classifier, X = X, y = y, cv = 6)
 print("Accuracy: ", accuracies.mean())
 print("SD: ", accuracies.std())
 
-# Improving the ANN
-# add dropout regularization to reduce overfitting (see above)
+# Improving and tuning the ANN with hyperparameter tuning and
+# adding dropout regularization to reduce overfitting (see above)
 
 # Tuning the ANN (grid search pf parameters)
 from keras.wrappers.scikit_learn import KerasClassifier
